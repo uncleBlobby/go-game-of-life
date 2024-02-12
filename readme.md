@@ -20,24 +20,38 @@ The rules of Conway's Game of Life are as follows:
 ## data structures
 
 World (System)
+
   The entire world in which the game takes place.
+
 Cell
+
   The singular atom of life and death.
+
 Neighbor
+
   A cell that lives and dies up against another in any direction.
+
 NeighborSet
+
   A set of all neighbors surrounding a given cell.
+
 Generation
+
   The entire set of cells for each iteration of the game.
+
 
 ## functions
 
-clear the screen
+-[x] clear the screen
 
-draw the screen
+-[x] draw the screen
 
-initialize (seed)
+-[x] initialize (seed)
+  -[ ] improve randomness
+  -[ ] find more interesting seeds
 
-process the entire system per generation
+-[x] process the entire system per generation
+  -[ ] check for bug in processing cell by cell
 
-tick length
+-[x] tick length
+  -[ ] change from compile time constant to run time arg
