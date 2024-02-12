@@ -2,6 +2,8 @@
 
 This project is meant to be an experiment in reproducing Conway's Game of Life using the Go programming language and a simple TUI.
 
+![Game of Life Screenshot](/gol.png?raw=true "Screenshot")
+
 The description, taken from Wikipedia, is below:
 
 The universe of the Game of Life is an infinite, two-dimensional orthogonal grid of square cells, each of which is in one of two
@@ -42,16 +44,16 @@ Generation
 
 ## functions
 
--[x] clear the screen
+- [x] clear the screen
 
--[x] draw the screen
+- [x] draw the screen
 
--[x] initialize (seed)
-  -[ ] improve randomness
-  -[ ] find more interesting seeds
+- [x] initialize (seed)
+  - [ ] improve randomness
+  - [ ] find more interesting seeds
 
--[x] process the entire system per generation
-  -[ ] check for bug in processing cell by cell
+- [x] process the entire system per generation
+  - [ ] check for bug in processing cell by cell
 
--[x] tick length
-  -[ ] change from compile time constant to run time arg
+- [x] tick length
+  - [ ] change from compile time constant to run time arg
